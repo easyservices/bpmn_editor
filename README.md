@@ -9,15 +9,17 @@ All the best and enjoy
 
 ## Using
 
-As a web app:
+### As a web app
 
-Just copy/paste the public folder to your favorite web server and call the corresponding URL from your favorite browser, and go offline, here you go :-)
-PWA will do the rest and take care for you if you are back online or not.
+Just copy/paste the public folder to your web server and call the corresponding URL from your favorite browser.
+Then you can go offline whenever you want and continue to create BPMN diagrams.
 
+(Demo)[https://bpmn.bienpratique.fr]
 
-As a standalone web app:
+### As a standalone web app
 
-Just copy/paste the public folder to your workstation and open within your favorite browser the index.html file and here you go :-)
+Just copy/paste the public folder to your workstation and open the index.html file within your favorite browser.
+** Note ** that this way of using the wep app can be deprecated at any time because of web browser security concerns.
 
 
 ## Building
