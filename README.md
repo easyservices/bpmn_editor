@@ -5,7 +5,7 @@ I added the PWA functionalities (strategy offline first) to the great bpmn-js li
 - self-updating web app when back online if a new version is published on the server side
 
 So simple as that...but very useful.
-All the best and enjoy
+All the best and enjoy!
 
 ## Using
 
@@ -13,13 +13,13 @@ All the best and enjoy
 
 Just copy/paste the public folder to your web server and call the corresponding URL from your favorite browser.
 Then you can go offline whenever you want and continue to create BPMN diagrams.
-
-(Demo)[https://bpmn.bienpratique.fr]
+[Demo available here](https://bpmn.bienpratique.fr)
 
 ### As a standalone web app
 
 Just copy/paste the public folder to your workstation and open the index.html file within your favorite browser.
-** Note ** that this way of using the wep app can be deprecated at any time because of web browser security concerns.
+
+Caution: this way of using the wep app can be deprecated at any time because of web browser security concerns.
 
 
 ## Building
