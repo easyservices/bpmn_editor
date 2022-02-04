@@ -10,15 +10,15 @@ All the best and enjoy
 ## Using
 
 As a web app:
-```
+
 Just copy/paste the public folder to your favorite web server and call the corresponding URL from your favorite browser, and go offline, here you go :-)
 PWA will do the rest and take care for you if you are back online or not.
-```
+
 
 As a standalone web app:
-```
+
 Just copy/paste the public folder to your workstation and open within your favorite browser the index.html file and here you go :-)
-```
+
 
 ## Building
 
