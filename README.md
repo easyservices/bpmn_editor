@@ -60,7 +60,7 @@ This project for a Progressive Web App is under GNU LESSER GENERAL PUBLIC LICENS
 
 ## 3rd parties copyrights
 
-It embbeds the great library from [bpmn-js](https://github.com/bpmn-io/bpmn-js) which is under the following licence:
+It embeds the great library from [bpmn-js](https://github.com/bpmn-io/bpmn-js) which is under the following licence:
 
       
 Copyright (c) 2014-present Camunda Services GmbH
