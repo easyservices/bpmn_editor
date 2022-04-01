@@ -21,6 +21,10 @@ Just copy/paste the public folder to your workstation and open the index.html fi
 
 Caution: this way of using the wep app can be deprecated at any time because of web browser security concerns.
 
+### As a docker
+
+Build using the Dockerfile from this repo and deploy the container in your own infrastructure.
+
 
 ## Building
 
@@ -50,7 +54,10 @@ Serve the application locally or via a web server (nginx, apache, embedded).
 
 ## Changelog
 
-V0.1
+V0.2.0
+Added the Docker deployment's option
+
+V0.1.0
 First version based on V8.9.1 from bpmn-js
 
 
