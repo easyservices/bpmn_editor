@@ -54,6 +54,9 @@ Serve the application locally or via a web server (nginx, apache, embedded).
 
 ## Changelog
 
+V0.2.1
+Added the app version number on the frontpage
+
 V0.2.0
 Added the Docker deployment's option
 
