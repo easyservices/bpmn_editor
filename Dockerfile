@@ -7,7 +7,6 @@ WORKDIR /tmp/bpmn_editor
 COPY app/ ./app
 COPY resources/ ./resources
 COPY package.json .
-COPY package-lock.json .
 COPY webpack.config.js .
 COPY README.md .
 

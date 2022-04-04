@@ -54,6 +54,9 @@ Serve the application locally or via a web server (nginx, apache, embedded).
 
 ## Changelog
 
+V0.2.2
+Bug correction in the Dockerfile
+
 V0.2.1
 Added the app version number on the frontpage
 

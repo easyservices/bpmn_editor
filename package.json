@@ -1,6 +1,6 @@
 {
   "name": "bpmn-js-pwa-modeler",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A simple modeler built with bpmn-js and packaged to be WPA capable",
   "scripts": {
     "all": "run-s lint build",
