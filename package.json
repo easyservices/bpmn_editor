@@ -1,7 +1,7 @@
 {
   "name": "bpmn-js-pwa-modeler",
-  "version": "0.2.2",
-  "description": "A simple modeler built with bpmn-js and packaged to be WPA capable",
+  "version": "0.3.0",
+  "description": "A simple modeler built with bpmn-js and packaged to be PWA capable",
   "scripts": {
     "all": "run-s lint build",
     "build": "webpack --mode production",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bpmn-io/bpmn-js-examples"
+    "url": "https://github.com/easyservices/bpmn_editor"
   },
   "keywords": [
     "bpmnjs-example"
   ],
   "author": {
-    "name": "Nico Rehwaldt",
-    "url": "https://github.com/nikku"
+    "name": "Guillaume Leleu",
+    "url": "https://github.com/easyservices"
   },
   "contributors": [
     {
@@ -26,7 +26,7 @@
       "url": "https://github.com/bpmn-io"
     }
   ],
-  "license": "MIT",
+  "license": "GLPL3",
   "devDependencies": {
     "copy-webpack-plugin": "^4.6.0",
     "eslint": "^5.0.1",
@@ -38,7 +38,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "bpmn-js": "^8.9.1",
+    "bpmn-js": "^9.0.3",
     "diagram-js": "^5.0.0",
     "jquery": "^3.3.1"
   }

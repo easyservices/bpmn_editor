@@ -10,15 +10,59 @@ var modeler = new BpmnModeler({
   container: '#js-canvas'
 });
 
+var canvas = modeler.get('canvas');
+var eventBus = modeler.get('eventBus');
+
+var search = new URLSearchParams(window.location.search); 
+var browserNavigationInProgress;
+
+// update the URL and browser history when switching to another root element 
+eventBus.on('root.set', function(event) {
+  
+  // location is already updated through the browser history API
+  if(browserNavigationInProgress){
+    return;
+  }
+
+  var rootElement = event.element;
+
+  search.set('rootElement', rootElement.id);
+  window.history.pushState({element: rootElement.id}, null, 'index.html?' + search.toString());
+});
+
+// listen to browser navigation and change the root element accordingly
+window.addEventListener('popstate', (event) => {
+  var rootElement = event.state && event.state.element;
+
+  if(!rootElement){
+    return;
+  }
+
+  browserNavigationInProgress = true;
+  canvas.setRootElement(canvas.findRoot(rootElement));
+  browserNavigationInProgress = false;
+});
+
 function createNewDiagram() {
   openDiagram(diagramXML);
 }
+
 
 async function openDiagram(xml) {
 
   try {
 
-    await modeler.importXML(xml);
+    // import the diagram and set the root element from the search params
+    browserNavigationInProgress = !!search.get('rootElement');
+    //await modeler.importXML(xml);
+    modeler.importXML(xml).then(function() {
+      var root = search.get('rootElement');
+      if (root) {
+        canvas.setRootElement(canvas.findRoot(root));
+      }
+    
+      browserNavigationInProgress = false;
+    });
 
     container
       .removeClass('with-error')

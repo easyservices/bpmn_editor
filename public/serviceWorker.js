@@ -1,4 +1,4 @@
-let CACHE_NAME = '0.2.2';
+let CACHE_NAME = '0.3.0';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -54,7 +54,7 @@ self.addEventListener('fetch', function (event) {
 
 self.addEventListener('activate', function (event) {
 
-    var cacheAllowlist = ['V01R01', '0.2.2'];
+    var cacheAllowlist = ['0.3.0'];
 
     event.waitUntil(
         caches.keys().then(function (cacheNames) {
