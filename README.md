@@ -52,21 +52,6 @@ Both tasks generate the distribution ready client-side modeler application into 
 
 Serve the application locally or via a web server (nginx, apache, embedded).
 
-## Changelog
-
-V0.2.2
-Bug correction in the Dockerfile
-
-V0.2.1
-Added the app version number on the frontpage
-
-V0.2.0
-Added the Docker deployment's option
-
-V0.1.0
-First version based on V8.9.1 from bpmn-js
-
-
 ## Licensing
 
 This project for a Progressive Web App is under GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007 
