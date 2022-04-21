@@ -15,7 +15,9 @@ RUN npm install -g http-server \
     && npm run build \
     && cp -r ./public/* /home/app/
 
-FROM nginx:1.13.9-alpine
+FROM nginx:1.21.6-alpine
+
+RUN mkdir /usr/share/nginx/html/stats
 
 COPY --from=node /tmp/bpmn_editor/public /usr/share/nginx/html
 
