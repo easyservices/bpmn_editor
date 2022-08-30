@@ -54,7 +54,7 @@ self.addEventListener('fetch', function (event) {
 
 self.addEventListener('activate', function (event) {
 
-    var cacheAllowlist = ['0.3.0'];
+    var cacheAllowlist = ['0.3.1'];
 
     event.waitUntil(
         caches.keys().then(function (cacheNames) {

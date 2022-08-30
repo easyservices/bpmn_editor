@@ -77,6 +77,16 @@ a:link {
   list-style: none;
 }
 
+.buttons-right {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .buttons > li {
   display: inline-block;
   margin-right: 10px;
