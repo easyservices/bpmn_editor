@@ -24,9 +24,9 @@ Caution: this way of using the wep app can be deprecated at any time because of 
 ### As a docker
 
 Build using the Dockerfile from this repo and deploy the container in your own infrastructure using:
-git clone <url of this repo>
-enter <the repo name> directory and then execute: docker build -t bpmn_editor .
-finally enter: docker run -d -p 3200:3299 bpmn_editor
+- git clone <url of this repo>
+- enter <the repo name> directory and then execute: docker build -t bpmn_editor .
+- finally enter: docker run -d -p 3200:3299 bpmn_editor
 
 
 ## Building
